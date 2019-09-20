@@ -54,7 +54,7 @@ export function reducer(state = initialSate, action) {
         isLoading: false,
         isInitialized: true,
         error: undefined,
-        cats: cats.map(cat => ({ ...cat, src: cat.url }))
+        cats: state.cats.concat(cats.map(cat => ({ ...cat, src: cat.url })))
       };
     }
     case (FETCH_CATS_ERROR, FETCH_CAT_ERROR): {
