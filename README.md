@@ -14,7 +14,9 @@ There are no unit tests :(. While I believe that unit tests are very important a
 
 The CSS is very basic, most of the CSS relies on Bootsrap.
 
-A strong typing system such as Typescript would be beneficial is the project is meant to grow.
+A strong typing system such as Typescript would be beneficial if the project is meant to grow.
+
+A 404 page could have been added as well as the error boundary mechanism that React provides.
 
 
 ## What can be improved
